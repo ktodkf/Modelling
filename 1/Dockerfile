@@ -1,7 +1,4 @@
-FROM node:12.18-alpine
-
-WORKDIR /project
-
+FROM node
+WORKDIR /2048-game
 COPY . .
-
 CMD ["node", "server.js"]
