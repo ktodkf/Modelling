@@ -29,3 +29,8 @@ git clone https://github.com/bradymadden97/2048-game
 Open a web browser and navigate to the <b>index.html</b> page in your filesystem
 
 Good luck and enjoy!
+
+```
+docker build -t 2048:0.1 .
+docker run --publish 8081:8080 2048:0.1
+```
